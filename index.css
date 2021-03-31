@@ -4,9 +4,42 @@
 }
 
 #banner {
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5),#009688),url(./images/line.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(./images/line.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+.navdiv {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#opennote{
+    text-align: center;
+    color: blue;
+    padding-top: 180px;
+}
+#opennote h1 {
+    font: size 130px;
+}
+#opennote p{
+    font: size 20px;
+    font-style: italic;
 }
