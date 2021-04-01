@@ -15,9 +15,18 @@ body{
 
 }
 
-nav {
+/* .nav {
     display: flex;
     float: right;
+} */
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none; 
 }
 
 .navdiv {
