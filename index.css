@@ -31,15 +31,18 @@ a {
     text-decoration: none;
     padding: 20px;
 }
-#opennote{
+
+#opennote {
     text-align: center;
     color: blue;
     padding-top: 180px;
 }
+
 #opennote h1 {
     font: size 130px;
 }
-#opennote p{
+
+#opennote p {
     font: size 20px;
     font-style: italic;
 }
