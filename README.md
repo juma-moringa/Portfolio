@@ -1,4 +1,4 @@
-# Portfolio-landing- page
+# My Portfolio
 ## Author
 Juma Allan
 ## Description
