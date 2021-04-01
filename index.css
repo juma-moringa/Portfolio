@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #009688;
+    padding-left: 30px;
+}
 
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(./images/line.jpg);
@@ -43,6 +47,21 @@ a {
 }
 
 #opennote p {
+    font: size 20px;
+    font-style: italic;
+}
+
+#project {
+    text-align: left;
+    color: blue;
+    padding-top: 180px;
+}
+
+#project h1 {
+    font: size 130px;
+}
+
+#project p {
     font: size 20px;
     font-style: italic;
 }
