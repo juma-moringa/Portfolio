@@ -80,9 +80,14 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
     color: black;
     text-align: center;
     font-family: italic;
     font-weight: 400;
+    background-color: #fff;
+}
+img{
+    float: right;
+    border-radius: 2cm;
+    margin-bottom: 3cm;
 }
