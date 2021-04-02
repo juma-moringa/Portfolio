@@ -44,6 +44,7 @@ a {
     color: black;
     text-decoration: none;
     padding: 20px;
+    font-size: 20px;
 }
 
 #opennote {
@@ -63,9 +64,9 @@ a {
 
 #project {
     text-align: center;
-    color: blue;
+    color: rgb(227, 227, 245);
     padding-top: 180px;
-    color: #fff;
+
     font: size 20px;
     font-style: italic;
 
@@ -108,5 +109,8 @@ img {
     color: #fff;
     font: size 20px;
     font-style: italic;
+    margin: 1% 5% 5% 5%;
+    padding: 2% 5% 5% 5%;
+
 
 }
