@@ -20,14 +20,15 @@ body {
     display: flex;
     float: right;
 } */
-.nav {
+.nav>nav>a{
     align-items: center;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     margin-left: 100px;
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
     text-decoration: none;
+    color: #fff;
 }
 
 .navdiv {
@@ -45,6 +46,11 @@ a {
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
+}
+
+.nav>nav>a:hover {
+    color: red;
+
 }
 
 #opennote {
@@ -66,8 +72,7 @@ a {
     text-align: center;
     color: rgb(227, 227, 245);
     padding-top: 180px;
-
-    font: size 20px;
+    font-size: 20px;
     font-style: italic;
 
 }
@@ -111,6 +116,20 @@ img {
     font-style: italic;
     margin: 1% 5% 5% 5%;
     padding: 2% 5% 5% 5%;
+}
 
+#future {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #fff; 
+}
+#futurep{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
 
 }
