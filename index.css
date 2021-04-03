@@ -133,3 +133,8 @@ img {
     color: #fff;
 
 }
+.new{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
